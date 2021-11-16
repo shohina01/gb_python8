@@ -15,6 +15,8 @@ class Error:
 
                 if y_or_n == 'Y' or y_or_n == 'y':
                     print(try_except.my_input())
+                 elif y_or_n == 'N' or y_or_n == 'n':
+                    return 'the end'
 
 
 try_except = Error(1)
